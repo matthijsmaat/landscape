@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository>
+<applications>
+<application id="i92xnhwa" name="ERP" function="" logo=""/>
+<application id="i2w0qnot" name="CRM" function="" logo=""/>
+</applications>
+<actors/>
+<relations>
+<relation id="ihlha8dz" source="i2w0qnot" target="i92xnhwa" type="klanten"/>
+</relations>
+</repository>
