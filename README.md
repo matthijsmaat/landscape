@@ -1,2 +1,2 @@
 # landscape
-A basic tool te describe IT application landscapes.
+A basic tool to describe IT application landscapes.
