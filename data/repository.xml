@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repository>
 <applications>
-<application id="i92xnhwa" name="ERP" function="" logo=""/>
-<application id="i2w0qnot" name="CRM" function="" logo=""/>
+<application id="i92xnhwa" name="EPD" function="" logo=""/>
+<application id="i2w0qnot" name="Sectra" function="PACS1, Dicombeelden" logo=""/>
+<application id="ii4z6m74" name="Clinical Assistant" function="PACS2, Non-dicom" logo=""/>
 </applications>
-<actors/>
+<actors>
+<actor id="ipfhgev9" name="Patient" image=""/>
+</actors>
 <relations>
-<relation id="ihlha8dz" source="i2w0qnot" target="i92xnhwa" type="klanten"/>
+<relation id="ihlha8dz" source="i2w0qnot" target="i92xnhwa" type="Resultaten"/>
+<relation id="iipy9j44" source="i92xnhwa" target="i2w0qnot" type="Patienten, orders"/>
+<relation id="inegks77" source="i92xnhwa" target="ii4z6m74" type="Patiënten, orders"/>
+<relation id="i0o4r9su" source="ii4z6m74" target="i92xnhwa" type="Resultaten"/>
 </relations>
 </repository>
